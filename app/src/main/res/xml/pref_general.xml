@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="@string/pref_zipcode_label"
+        android:key="@string/pref_zipcode_key"
+        android:defaultValue="@string/pref_zipcode_default_value"
+        android:inputType="text"
+        android:singleLine="true"
+        />
+
+    <ListPreference
+        android:title="@string/pref_units_label"
+        android:defaultValue="imperial"
+        android:entries="@array/pref_units_labels_arr"
+        android:entryValues="@array/pref_units_values_arr"
+        android:key="@string/pref_units_key"
+        />
+
+</PreferenceScreen>

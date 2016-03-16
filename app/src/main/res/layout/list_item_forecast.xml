@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:background="#ddd"
+    android:textColor="@color/abc_primary_text_material_light"
+    android:padding="5dp"
+    android:text="Today - Sunny - 84/63"
+    android:id="@+id/list_item_forecast_textview"
+    />
+
