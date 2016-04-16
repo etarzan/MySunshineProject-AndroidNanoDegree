@@ -80,5 +80,7 @@
         <item>Imperial</item>
         <item>Metric</item>
     </string-array>
+    <string name="pref_units_metric">metric</string>
+    <string name="pref_units_imperial">imperial</string>
 
 </resources>
